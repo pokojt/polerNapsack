@@ -5,3 +5,55 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+body {
+  background: url("../img/backgroundImage.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.fullPageContainer {
+  margin: 0 auto;
+  height: 1500px;
+  width: 80%;
+  border: 1px solid red;
+  position: relative;
+}
+/* Navigation ---------------------------*/
+
+.nav {
+  border: 1px solid green;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.5);
+  margin: 20px 0px 10px 0px;
+  height: 100px;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+.nav li {
+  float: right;
+  color: black;
+  margin: 0 0 0 20px;
+}
+
+.nav li:hover {
+
+}
+
+.nav img {
+  float: left;
+  opacity: .4;
+  height: 80px;
+}
+
+/* header --------------------------------*/
+
+.headerText {
+  text-align: center;
+  border: 1px solid blue;
+}
