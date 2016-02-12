@@ -6,12 +6,31 @@
             box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'amaticRegular';
+  src: url("../fonts/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'amaticBold';
+  src: url("../fonts/Amatic-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'windSong';
+  src: url("../fonts/Windsong.ttf");
+}
+
 body {
   background: url("../img/backgroundImage.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
+}
+
+p {
+  font-family: 'amaticRegular';
 }
 
 .fullPageContainer {
@@ -21,11 +40,13 @@ body {
   border: 1px solid red;
   position: relative;
 }
+
+
+
 /* Navigation ---------------------------*/
 
 .nav {
-  border: 1px solid green;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
   margin: 20px 0px 10px 0px;
   height: 100px;
 }
@@ -37,8 +58,12 @@ ul {
 
 .nav li {
   float: right;
-  color: black;
-  margin: 20px 0 0 20px;
+  color: #282b22;
+  margin: 20px 0 0 30px;
+  font-family: 'amaticRegular';
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: 0 1px 1px lightgray;
 }
 
 .nav li:hover {
@@ -56,4 +81,31 @@ ul {
 .headerText {
   text-align: center;
   border: 1px solid blue;
+  margin: 170px 0 30px 0;
+  color: white;
+  text-shadow: 0 2px 2px gray;
+  border: 1px solid green;
+}
+
+.headerText h1 {
+  font-family: 'amaticRegular';
+  font-weight: lighter;
+  font-size: 150px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.headerText p {
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-family: 'windSong';
+  display: block;
+  margin-top: 0;
+}
+
+.headerText img {
+  height: 100px;
+  margin: 0 0 20px 0;
+  opacity: .4;
 }
