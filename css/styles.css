@@ -236,6 +236,7 @@ iframe {
   box-shadow: 2px 2px gray;
   bottom: 76%;
   left: 80%;
+  border-radius: 3px;
 }
 
 .sizeChart table {
@@ -243,7 +244,9 @@ iframe {
   font-size: 30px;
   color: #515858;
   margin: 0 auto;
+  margin: 5px 5px 0 5px;
   text-align: center;
+  border-radius: 3px;
 }
 
 .sizeChart table td {
@@ -251,6 +254,11 @@ iframe {
   padding: 5px;
   border-top:1px solid #2C362E;
   border-collapse: collapse;
+}
+
+.sizeChart table td:hover, th:hover, .sizeChart p:hover {
+  background-color: #515858;
+  color: white;
 }
 
 .sizeChart p {
