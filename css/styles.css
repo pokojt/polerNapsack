@@ -173,8 +173,57 @@ iframe {
   border-radius: 50%;
   opacity: .75;
   box-shadow: 1px gray;
+  position: relative;
 }
 
+.imageCaptions p{
+  display: block;
+  position: absolute;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+}
+
+#black {
+  left: 18%;
+  bottom: -4.2%;
+}
+
+#burgundy {
+  left: 34.5%;
+  bottom: -4.2%;
+}
+
+#blueSteel {
+  left: 53%;
+  bottom: -4.2%;
+}
+
+#dandelion {
+  left: 71.5%;
+  bottom: -4.2%;
+}
+
+#brotanical {
+  left: 14.75%;
+  bottom: -17%;
+}
+
+#lava {
+  left: 37.55%;
+  bottom: -17%;
+}
+
+#rainbro {
+  left: 54%;
+  bottom: -17%;
+  text-shadow: 0 3px 3px gray;
+}
+
+#camo {
+  left: 71%;
+  bottom: -17%;
+}
 
 /* Size Chart ---- and click to display ---------------*/
 
