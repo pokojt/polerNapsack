@@ -37,7 +37,7 @@ p {
   margin: 0 auto;
   height: 2000px;
   width: 80%;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   position: relative;
 }
 
@@ -123,7 +123,6 @@ iframe {
 /* Large image and description div ----------- */
 
 .description {
-  border: 2px solid green;
   margin: 60px 0 20px 0;
   height: 700px;
 }
@@ -140,17 +139,41 @@ iframe {
 }
 
 #description {
-  height: 550px;
+  /*height: 650px;*/
+  width: 70%;
   color: white;
-  border: 1px solid white;
+  text-align: center;
+  letter-spacing: 2px;
   font-size: 22px;
-  text-shadow: 0 1px 1px gray;
+  text-shadow: 0 2px 2px gray;
   position: absolute;
-  bottom: 480px;
+  padding: 100px 0 0 0;
+  /*bottom: 300px;*/
   left: 50%;
   transform: translate(-50%, 0);
-  width: 70%;
+}
+
+/* Gallery ------------------------------*/
+
+.stylesHeading p{
+  color: white;
+  font-family: 'windSong';
   text-align: center;
-  padding: 100px 0 0 0;
+  font-size: 50px;
+  margin-top: 0;
   letter-spacing: 2px;
+  text-shadow: 0 1px 1px gray;
+}
+
+.stylesGallery {
+  padding-left: 12%;
+}
+
+.stylesGallery img {
+  width: 18%;
+  float: left;
+  margin: 20px 20px 20px 20px;
+  border-radius: 50%;
+  opacity: .75;
+  box-shadow: 1px gray;
 }
